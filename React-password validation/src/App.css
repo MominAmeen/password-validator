@@ -1,0 +1,70 @@
+
+body{
+  background-color: aliceblue;
+}
+
+.App {
+  background-color: white;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.064);
+  width: 350px;
+  margin: 0 auto;
+  padding: 0 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+
+.App h2{
+  padding-top: 20px;
+  text-align: center;
+}
+
+.form{
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form label{
+  display: flex;
+}
+
+.form label input{
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  
+}
+
+.submitButton{
+  padding: 10px;
+  margin: 10px 0;
+  cursor: pointer;
+  background-color: purple;
+  color: white;
+  border: 0;
+  outline: none;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.validationList{
+  list-style: none;
+  padding: 10px 20px;
+  margin: 0;
+  border: 1px solid #cfcfcf;
+  border-radius: 10px;
+}
+
+.validationList li{
+  margin: 5px 0;
+  font-size: 13px;
+}
+
+.green{
+  color: rgb(0, 207, 0);
+}
+
+.red{
+  color: red;
+}
